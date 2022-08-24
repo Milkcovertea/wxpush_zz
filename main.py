@@ -8,7 +8,7 @@ from datetime import datetime, date
 from time import time, localtime
 from requests import get, post
 from zhdate import ZhDate
-from tuisong import cityinfo
+import cityinfo
 
 
 def get_color():
